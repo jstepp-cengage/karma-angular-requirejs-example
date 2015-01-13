@@ -1,0 +1,34 @@
+{
+  "name": "karma-angular-requirejs-example",
+  "version": "1.0.0",
+  "description": "An example of using the libraries together.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstepp-cengage/karma-angular-requirejs-example.git"
+  },
+  "keywords": [
+    "angular",
+    "requirejs",
+    "karma"
+  ],
+  "author": "Jerome Stepp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jstepp-cengage/karma-angular-requirejs-example/issues"
+  },
+  "homepage": "https://github.com/jstepp-cengage/karma-angular-requirejs-example",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-karma": "^0.10.1",
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.4",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
+    "requirejs": "^2.1.15"
+  }
+}
