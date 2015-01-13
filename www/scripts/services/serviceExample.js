@@ -2,18 +2,20 @@ define([
     "angular"
     ], function (angular) {
 
-    angular.module("example").service("example", function () {
+    angular.module("example").factory("serviceExample", function () {
 
-        var _data = null;
+        return {
+            _data: null,
 
-        this.getServiceData = function () {
-            return _data;
-        };
+            getServiceData: function () {
+                return this._data;
+            },
 
-        this.setServiceData = function (data) {
-            _data = data;
+            setServiceData: function (data) {
+                this._data = data;
+            }
         };
 
     });
-    
+
 });

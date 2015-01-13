@@ -1,6 +1,7 @@
 var allTestFiles = [
     "scripts/bootstrap",
-    "tests/controllers/controllerExample_spec"
+    "tests/controllers/controllerExample_spec",
+    "tests/services/serviceExample_spec"
 ];
 
 require.config({
